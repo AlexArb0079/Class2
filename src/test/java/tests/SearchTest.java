@@ -21,10 +21,7 @@ public class SearchTest {
 	public void search() {
 		System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
 		
-		// PC no tiene chrome
-		ChromeOptions options = new ChromeOptions().setBinary("K:\\Programas\\BraveSoftware\\Brave-Browser\\Application\\Brave.exe");
-		WebDriver driver = new ChromeDriver(options);
-		//WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		
