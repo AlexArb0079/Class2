@@ -38,7 +38,7 @@ public class SearchTest {
 		
 
 		String targetText = driver.findElement(By.className("heading-counter")).getText();
-        Assert.assertEquals(targetText, "0 results have been found.");
+		Assert.assertEquals(targetText, "0 results have been found.");
         
 		driver.close();
 		driver.quit();
